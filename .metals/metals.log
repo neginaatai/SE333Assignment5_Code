@@ -1783,3 +1783,123 @@ INFO: Unsupported notification method: $/setTrace
 2026.03.12 23:36:25 INFO  time: Connected to build server in 0.12s
 2026.03.12 23:36:25 INFO  Connected to Build server: Bloop v2.0.19
 2026.03.12 23:36:25 INFO  time: indexed workspace in 0.78s
+2026.03.12 23:43:31 INFO  running '/Users/neginaatai/Library/Java/JavaVirtualMachines/openjdk-25/Contents/Home/bin/java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=/Users/neginaatai/Downloads/Assignment5_Code -Dmaven.home=/var/folders/qs/f4drqckj2_1cg49k1gfwv_fm0000gn/T/metals15907838724002482930 -cp /var/folders/qs/f4drqckj2_1cg49k1gfwv_fm0000gn/T/metals15907838724002482930/maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.3:bloopInstall -DdownloadSources=true'
+2026.03.12 23:43:31 ERROR WARNING: A restricted method in java.lang.System has been called
+2026.03.12 23:43:31 ERROR WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/Users/neginaatai/.m2/wrapper/dists/apache-maven-3.9.9-bin/33b4b2b4/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+2026.03.12 23:43:31 ERROR WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+2026.03.12 23:43:31 ERROR WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+2026.03.12 23:43:31 ERROR 
+2026.03.12 23:43:31 ERROR WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+2026.03.12 23:43:31 ERROR WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/Users/neginaatai/.m2/wrapper/dists/apache-maven-3.9.9-bin/33b4b2b4/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+2026.03.12 23:43:31 ERROR WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+2026.03.12 23:43:31 ERROR WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+2026.03.12 23:43:32 INFO  [INFO] Scanning for projects...
+2026.03.12 23:43:32 INFO  [INFO] 
+2026.03.12 23:43:32 INFO  [INFO] --------------------< org.example:Assignment5_code >--------------------
+2026.03.12 23:43:32 INFO  [INFO] Building Assignment5_code 1.0-SNAPSHOT
+2026.03.12 23:43:32 INFO  [INFO]   from pom.xml
+2026.03.12 23:43:32 INFO  [INFO] --------------------------------[ jar ]---------------------------------
+2026.03.12 23:43:32 INFO  [INFO] 
+2026.03.12 23:43:32 INFO  [INFO] --- jacoco:0.8.12:prepare-agent (default-prepare-agent) @ Assignment5_code ---
+2026.03.12 23:43:32 INFO  [INFO] argLine set to -javaagent:/Users/neginaatai/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/Users/neginaatai/Downloads/Assignment5_Code/target/jacoco.exec
+2026.03.12 23:43:32 INFO  [INFO] 
+2026.03.12 23:43:32 INFO  [INFO] --- bloop:2.0.3:bloopInstall (default-cli) @ Assignment5_code ---
+2026.03.12 23:43:32 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2026.03.12 23:43:32 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.15.11:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.15.11:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.15.11:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.15.11:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.opentest4j:opentest4j:jar:1.3.0:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.opentest4j:opentest4j:jar:1.3.0:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.opentest4j:opentest4j:jar:1.3.0:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.opentest4j:opentest4j:jar:1.3.0:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.mockito:mockito-core:jar:5.15.2:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.mockito:mockito-core:jar:5.15.2:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.mockito:mockito-core:jar:5.15.2:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.mockito:mockito-core:jar:5.15.2:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.assertj:assertj-core:jar:3.27.3:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.assertj:assertj-core:jar:3.27.3:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.assertj:assertj-core:jar:3.27.3:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.assertj:assertj-core:jar:3.27.3:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.hsqldb:hsqldb:jar:2.6.0:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.hsqldb:hsqldb:jar:2.6.0:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.hsqldb:hsqldb:jar:2.6.0:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.hsqldb:hsqldb:jar:2.6.0:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-commons:jar:1.11.4:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-commons:jar:1.11.4:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-commons:jar:1.11.4:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-commons:jar:1.11.4:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy-agent:jar:1.15.11:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy-agent:jar:1.15.11:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy-agent:jar:1.15.11:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy-agent:jar:1.15.11:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.objenesis:objenesis:jar:3.3:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.objenesis:objenesis:jar:3.3:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.objenesis:objenesis:jar:3.3:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.objenesis:objenesis:jar:3.3:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Generated .bloop/Assignment5_code.json
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.15.11:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.15.11:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.15.11:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.15.11:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.opentest4j:opentest4j:jar:1.3.0:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.opentest4j:opentest4j:jar:1.3.0:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.opentest4j:opentest4j:jar:1.3.0:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.opentest4j:opentest4j:jar:1.3.0:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.mockito:mockito-core:jar:5.15.2:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.mockito:mockito-core:jar:5.15.2:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.mockito:mockito-core:jar:5.15.2:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.mockito:mockito-core:jar:5.15.2:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.assertj:assertj-core:jar:3.27.3:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.assertj:assertj-core:jar:3.27.3:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.assertj:assertj-core:jar:3.27.3:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.assertj:assertj-core:jar:3.27.3:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.hsqldb:hsqldb:jar:2.6.0:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.hsqldb:hsqldb:jar:2.6.0:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.hsqldb:hsqldb:jar:2.6.0:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.hsqldb:hsqldb:jar:2.6.0:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-commons:jar:1.11.4:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-commons:jar:1.11.4:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-commons:jar:1.11.4:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-commons:jar:1.11.4:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy-agent:jar:1.15.11:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy-agent:jar:1.15.11:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy-agent:jar:1.15.11:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy-agent:jar:1.15.11:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.objenesis:objenesis:jar:3.3:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.objenesis:objenesis:jar:3.3:test (sources = false)
+2026.03.12 23:43:32 INFO  [INFO] Resolving artifact: org.objenesis:objenesis:jar:3.3:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] SUCCESS: org.objenesis:objenesis:jar:3.3:test (sources = true)
+2026.03.12 23:43:32 INFO  [INFO] Generated .bloop/Assignment5_code-test.json
+2026.03.12 23:43:32 INFO  [INFO] ------------------------------------------------------------------------
+2026.03.12 23:43:32 INFO  [INFO] BUILD SUCCESS
+2026.03.12 23:43:32 INFO  [INFO] ------------------------------------------------------------------------
+2026.03.12 23:43:32 INFO  [INFO] Total time:  0.381 s
+2026.03.12 23:43:32 INFO  [INFO] Finished at: 2026-03-12T23:43:32-05:00
+2026.03.12 23:43:32 INFO  [INFO] ------------------------------------------------------------------------
+2026.03.12 23:43:32 INFO  time: ran 'mvn bloopInstall' in 1.05s
+2026.03.12 23:43:32 INFO  Disconnecting from Bloop session...
+2026.03.12 23:43:32 INFO  Shut down connection with build server.
+2026.03.12 23:43:32 INFO  Attempting to connect to the build server...
+2026.03.12 23:43:32 INFO  Found a Bloop server running
+2026.03.12 23:43:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/neginaatai/Downloads/Assignment5_Code/.metals/bsp.trace.json or /Users/neginaatai/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.03.12 23:43:32 INFO  time: Connected to build server in 0.11s
+2026.03.12 23:43:32 INFO  Connected to Build server: Bloop v2.0.19
+2026.03.12 23:43:32 INFO  time: indexed workspace in 0.59s
