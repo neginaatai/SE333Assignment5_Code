@@ -22,7 +22,7 @@ GitHub Actions runs on every push:
 ### Manual vs AI-Generated Playwright Tests
 
 #### Overview
-For this assignment, I wrote two sets of Playwright UI tests for the DePaul bookstore website — one manually in the `playwrightTraditional` package and one generated using GitHub Copilot with the Playwright MCP tool in the `playwrightLLM` package. Both sets contained 7 test cases covering the same scenarios: homepage loading, earbuds search, category page verification, JBL Black earbuds product page, price verification, add to cart, and cart verification.
+For this assignment, I wrote two sets of Playwright UI tests for the DePaul bookstore website-one manually in the `playwrightTraditional` package and one generated using GitHub Copilot with the Playwright MCP tool in the `playwrightLLM` package. Both sets contained 7 test cases covering the same scenarios: homepage loading, earbuds search, category page verification, JBL Black earbuds product page, price verification, add to cart, and cart verification.
 
 #### Writing the Manual Tests
 Writing the traditional tests manually required me to first explore the website and understand its structure. I had to identify which URLs were stable, what content appeared on each page, and what selectors would work reliably. For example, I discovered that the site's search bar used hidden inputs that Playwright could not interact with, so I switched to direct URL navigation instead. This debugging process took time but gave me a deep understanding of how the site worked. The manual tests were more focused and precise because I knew exactly what I was testing and why.
