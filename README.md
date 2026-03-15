@@ -17,8 +17,7 @@ GitHub Actions runs on every push:
 2. All tests
 3. JaCoCo coverage report
 
-## Workflow
-[View GitHub Actions Workflow](https://github.com/neginaatai/SE333Assignment5_Code/actions/workflows/SE333_CI.yml)
+
 
 ## Reflection
 
@@ -40,3 +39,9 @@ Another key difference was understanding. When I wrote tests manually, I underst
 
 #### What I Learned
 This exercise showed me that AI tools like Copilot are most useful as a starting point rather than a complete solution for UI testing. They can quickly generate boilerplate and structure, but a human tester still needs to verify, refine, and fix the output. The Playwright MCP integration was impressive in how it could understand the task and generate syntactically correct Java code, but it lacked the contextual knowledge of the actual website being tested. In a real project, the best approach would be to use AI to generate the initial test skeleton and then manually refine the selectors and assertions based on real browser behavior.
+
+## Workflow
+[View GitHub Actions Workflow](https://github.com/neginaatai/SE333Assignment5_Code/actions/workflows/SE333_CI.yml)
+
+## Status
+All GitHub Actions steps passed successfully including static analysis (Checkstyle), all 39 tests, and JaCoCo coverage report. 
