@@ -17,6 +17,9 @@ GitHub Actions runs on every push:
 2. All tests
 3. JaCoCo coverage report
 
+## Workflow
+[View GitHub Actions Workflow](https://github.com/neginaatai/SE333Assignment5_Code/actions/workflows/SE333_CI.yml)
+
 ## Reflection
 
 ### Manual vs AI-Generated Playwright Tests
