@@ -18,7 +18,10 @@ jobs:
           java-version: '23'
           distribution: 'temurin'
 
-      - name: Run Checkstyle (static analysis)
+      - name: Install Playwright browsers
+        run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps chromium" -D exec.classpathScope=test
+
+      - name: Run Checkstyle
         run: mvn checkstyle:checkstyle -Dcheckstyle.failOnViolation=false
 
       - name: Upload Checkstyle Report
@@ -27,7 +30,7 @@ jobs:
           name: checkstyle-report
           path: target/checkstyle-result.xml
 
-      - name: Run Tests and Generate JaCoCo Report
+      - name: Run Tests
         run: mvn test
 
       - name: Upload JaCoCo Report

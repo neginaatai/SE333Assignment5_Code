@@ -35,7 +35,7 @@ public class BookstoreAITest {
     // Launch non-headless with a few flags to reduce automation detection. If you prefer headless CI runs,
     // set headless=true or remove the args.
     BrowserType.LaunchOptions launchOptions = new BrowserType.LaunchOptions()
-        .setHeadless(false)
+        .setHeadless(true )
         .setArgs(List.of("--disable-blink-features=AutomationControlled", "--no-sandbox"));
     browser = playwright.chromium().launch(launchOptions);
     // Use a common Chrome user agent to reduce bot detection

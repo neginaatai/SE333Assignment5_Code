@@ -26891,3 +26891,18 @@ WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
 1 warning.
 2026.03.13 21:27:38 WARN  javac: [options] location of system modules is not set in conjunction with -source 23
 2026.03.13 21:27:38 INFO  time: compiled Assignment5_code-test in 1.13s
+Mar 14, 2026 11:35:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2207
+Mar 14, 2026 11:35:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2292
+2026.03.14 23:35:51 INFO  compiling assignment5_code-test (1 java source)
+2026.03.14 23:35:51 WARN  Unexpected javac output: warning: [options] location of system modules is not set in conjunction with -source 23
+  not setting the location of system modules may lead to class files that cannot run on JDK 23
+    --release 23 is recommended instead of -source 23 -target 23 because it sets the location of system modules automatically
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/Users/neginaatai/Library/Caches/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+1 warning.
+2026.03.14 23:35:51 WARN  javac: [options] location of system modules is not set in conjunction with -source 23
+2026.03.14 23:35:51 INFO  time: compiled Assignment5_code-test in 0.58s
